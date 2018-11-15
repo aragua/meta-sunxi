@@ -19,7 +19,7 @@ PREFERRED_PROVIDER_virtual/bootloader ?= "u-boot"
 KERNEL_IMAGETYPE ?= "uImage"
 
 IMAGE_CLASSES += "sdcard_image-sunxi"
-IMAGE_FSTYPES += "ext3 tar.gz sunxi-sdimg"
+IMAGE_FSTYPES += "tar.gz sunxi-sdimg"
 
 MACHINE_EXTRA_RRECOMMENDS = "kernel-modules"
 
